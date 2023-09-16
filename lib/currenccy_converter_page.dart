@@ -42,7 +42,7 @@ class _CurrencyConverterMaterialPagestate extends State<CurrencyConverterMateria
             Text(
               // int -> string variable_name.String
               // string -> int or deuble  int.parse(value)
-              result.toString(),
+              result.toStringAsFixed(4),
               style: const TextStyle(
                 fontSize: 40,
                 fontWeight: FontWeight.bold,
